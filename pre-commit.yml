@@ -1,0 +1,21 @@
+repos:
+- repo: https://github.com/pre-commit/mirrors-black
+  rev: stable
+  hooks:
+  - id: black
+    language_version: python3.9
+- repo: https://github.com/pre-commit/mirrors-mypy
+  rev: stable
+  hooks:
+  - id: mypy
+    args: [--ignore-missing-imports]
+- repo: https://github.com/pylama/pylama
+  rev: "1.10.0"
+  hooks:
+  - id: pylama
+    args: [--format=pep8]
+- repo: https://github.com/pytest-dev/pytest-cov
+  rev: "2.12.1"
+  hooks:
+  - id: pytest-cov
+    args: [--cov=my_module.py, --cov-report=term-missing]

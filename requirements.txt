@@ -1,0 +1,10 @@
+boto3==1.17.112
+pyarrow==5.0.0
+pytest==6.2.4
+moto==2.0.8
+black==22.3.0
+mypy==0.910
+pylama
+pytest-cov==2.12.1
+pyspark
+git+https://github.com/awslabs/aws-glue-libs.git

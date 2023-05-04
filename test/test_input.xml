@@ -1,0 +1,12 @@
+<root>
+    <record>
+        <id>1</id>
+        <name>Alice</name>
+        <age>25</age>
+    </record>
+    <record>
+        <id>2</id>
+        <name>Bob</name>
+        <age>30</age>
+    </record>
+</root>
