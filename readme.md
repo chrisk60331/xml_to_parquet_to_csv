@@ -27,16 +27,17 @@ pre-commit run --all-files
 ## Terraform
 
 Run init to initialize the Terraform configuration.
-```
+```bash
 terraform init
 ``` 
 Run plan to see the changes that will be made to your AWS account.
-```
+```bash
 terraform plan
 ``` 
 If the plan looks good, run apply to create the infrastructure in your AWS account.
-```
+```bash
 terraform apply
 ```
 When you're done with the infrastructure, run destroy to delete it from your AWS account.
-```terraform destroy``` 
+```bash
+terraform destroy``` 
